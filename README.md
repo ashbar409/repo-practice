@@ -1,2 +1,2 @@
 # repo-practice
-Hello World!
+This is the git repo containing my prework assignment
