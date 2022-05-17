@@ -1,0 +1,106 @@
+.universalHeader{
+	height: 75px;
+	background-color: dimgray;
+	color: whitesmoke;
+	border-style: groove;
+}
+.headerText{
+	color: black;
+}
+.navBar{
+	display: inline-block;
+	margin-right: 10px;
+	border-style: ridge;
+	column-count: 1;
+	width: 250px;
+	height: 25px;
+	background-color: gray;
+	position: absolute;
+	right:  0;
+}
+.container{
+	display: inline-flex;
+}
+#aboutMeParagraph{
+	background-color: gray;
+	color: black;
+	max-width:  750px;
+	height: 350px;
+}
+#myPicture{
+	margin-top: 20px;
+	float: left;
+}
+#favoritesSection{
+	position: relative;
+	top: 0;
+	right: 0;
+}
+#generalHobbies{
+	width: 1000px;
+}
+#hobbyContainer{
+	display: inline-flex;
+}
+#tableOfGames{
+	width: 1000px;
+}
+#moonKnightTrailer{
+	float: right;
+}
+body{
+	color: ghostwhite;
+	background-color: black;
+}
+h1{
+	font-family: monospace;
+	text-decoration: underline;
+	color: yellow;
+}
+h2{
+	font-family: monospace;
+	text-decoration: underline;
+	color: yellow;
+}
+h3{
+	font-family: monospace;
+	text-decoration: underline;
+	color: yellow;
+}
+p{
+	font-family: monospace;
+	font-size: 12pt;
+}
+a{
+	color: purple;
+}
+li{
+	font-family: monospace;
+	font-size: 16pt;
+}
+form{
+	padding: 25px;
+	background-color: gray;
+	color: black;
+	font-family: monospace;
+	border-style: double;
+	width: fit-content;
+}
+input[type = button]{
+	font-family: monospace;
+	color: black;
+	background-color: ghostwhite;
+	padding: 10px;
+	border-style: outset;
+	border-color: black;
+
+}
+input[type = button]:hover{
+	font-family: monospace;
+	color: ghostwhite;
+	background-color: gray;
+	padding: 10px;
+	border-style: outset;
+	border-color: black;
+			
+}
